@@ -1,0 +1,29 @@
+{
+    "name":  "Omar Farouk's Portfolio",
+    "short_name": "Omar Farouk's Portfolio",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Omar Farouk's Personal Portfolio.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+             
+            "src": "icons/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "apple-touch-icon"
+        },
+        {
+            "src": "icons/favicon.svg",
+            "sizes": "1000x1000",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "icons/favicon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
+}

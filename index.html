@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+  
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #000515; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #loading img {
+      width: 140px;
+      height: 130px;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Omar Farouk's Personal Portfolio">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
+  <link rel="shortcut icon" href="icon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+
+  <title>Omar Farouk's Portfolio</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Loading Screen Start-->
+<div id="loading">
+  <img src="icons/loading.gif" alt="Loading">
+</div>
+  <!-- Loading Screen End-->
+
+  <!-- Flutter App Start -->
+  <script src="flutter_bootstrap.js" async></script>
+  <!-- Flutter App End -->
+<script>
+  // Hide splash screen once Flutter is ready
+  window.addEventListener('flutter-first-frame', function() {
+    document.getElementById('loading').style.display = 'none';
+  });</script>
+</body>
+</html>
