@@ -148,7 +148,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     role: "Lead Software Developer",
     company: "Venneir",
     period: "2026 - Present",
-    location: "Remote",
+    location: "New Cairo, Egypt",
     description: [
       "Lead software development for a large business in the dental field, owning its internal tooling end to end.",
       "Build new internal tools and maintain and extend existing ones to streamline day-to-day operations.",
@@ -161,7 +161,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     role: "Freelance Software Developer",
     company: SHOW_BARMAJHA ? "Barmajha Hub" : "",
     period: "2023 - 2026",
-    location: "Cairo, Egypt",
+    location: "Remote",
     description: [
       "Engineered 10+ commercial applications across mobile (Android/iOS), web, and Windows desktop.",
       "Architected and deployed Ovnix.io, an enterprise-level affiliate marketing SaaS managing thousands of conversion transactions.",
