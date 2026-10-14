@@ -1,0 +1,22 @@
+# Omar Farouk
+
+> Lead Software Developer at Venneir (2026–present), building and maintaining internal tools for a large dental-industry business with an AI-assisted workflow (Claude, Supabase, Vercel, GitHub). Previously a freelance developer (2023–2026) who shipped 10+ commercial web, mobile and desktop products with Flutter, PHP and MySQL. Based in Cairo, Egypt.
+
+## Contact
+- Email: o.m200233@gmail.com
+- GitHub: https://github.com/omarmfarouk
+- LinkedIn: https://linkedin.com/in/omarmfarouk
+- CV: https://omarmfarouk.github.io/assets/pdfs/cv.pdf
+
+## Selected projects
+- [OrthoKeep](https://orthokeep.com): SaaS patient record and imaging suite (ceph, facial, 3D scan analysis) for orthodontists working across multiple clinics
+- [Madania](https://madania.sa/): Saudi payment-solutions website with an interactive checkout demo
+- [Nbarmej](https://nbarmej.com/): Saudi software agency website with a WhatsApp quote builder
+- Tabalah Academy: Flutter sports-academy member app with subscriptions and QR attendance (coming soon)
+- Dawa Today: Egyptian drug reference app with AI prescription scanning
+- [Ovnix](https://ovnix.io): affiliate marketing SaaS with real-time conversion tracking
+- [Tri-Fit](https://play.google.com/store/apps/details?id=com.barmajha.trifit): gym and sports club management app
+- [Cayo Brand](https://cayobrand.shop), [Sillia Vape](https://silliavape.com): e-commerce stores
+
+## Skills
+Flutter, Dart, BLoC, React, TypeScript, Vite, Tailwind CSS, PHP, Laravel (middleware, auth, Eloquent), MySQL, REST APIs, serverless backends, Supabase, Vercel, Git/GitHub, AI-assisted development with Claude
