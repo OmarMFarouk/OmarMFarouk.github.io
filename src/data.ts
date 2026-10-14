@@ -159,7 +159,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     role: "Freelance Software Developer",
-    company: SHOW_BARMAJHA ? "Self-Employed / Barmajha Hub" : "Self-Employed",
+    company: SHOW_BARMAJHA ? "Barmajha Hub" : "",
     period: "2023 - 2026",
     location: "Cairo, Egypt",
     description: [

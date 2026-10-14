@@ -36,7 +36,7 @@ export const Experience: React.FC = () => {
                     <div className="flex flex-wrap items-start justify-between gap-3">
                       <div>
                         <h3 className="text-lg sm:text-xl font-bold font-heading text-white">
-                          {exp.role} <span className="text-cyan-400">@ {exp.company}</span>
+                          {exp.role}{exp.company && <span className="text-cyan-400"> @ {exp.company}</span>}
                         </h3>
                         <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono text-slate-400">
                           <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5" />{exp.period}</span>
